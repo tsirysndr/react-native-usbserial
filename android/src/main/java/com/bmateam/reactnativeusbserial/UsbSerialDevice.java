@@ -6,7 +6,7 @@ import com.hoho.android.usbserial.driver.UsbSerialPort;
 import java.io.IOException;
 
 public class UsbSerialDevice {
-    private UsbSerialPort port;
+    public UsbSerialPort port;
     private static final int SERIAL_TIMEOUT = 1000;
 
     public UsbSerialDevice(UsbSerialPort port) {
